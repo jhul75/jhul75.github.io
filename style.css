@@ -22,7 +22,7 @@ h2{
   position: absolute;
   padding: 2rem;
   left: 50%;
-  top: 20%;
+  top: 35%;
   transform: translate(-50%,-50%); 
 }
 #castle #table {
