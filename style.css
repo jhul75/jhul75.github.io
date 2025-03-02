@@ -21,9 +21,21 @@ h2{
   font-size: medium;
   position: absolute;
   padding: 2rem;
+  font-size: 1.5rem;
   left: 50%;
-  top: 35%;
+  top: 10%;
   transform: translate(-50%,-50%); 
+  text-align: center;
+}
+h2 span{
+  font-size: 1rem;
+}
+.btn{
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%,-50%); 
+  font-size: 4rem;
 }
 #castle #table {
   position: absolute;
