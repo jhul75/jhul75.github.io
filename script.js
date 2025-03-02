@@ -2,6 +2,19 @@
 
   const head = document.getElementsByTagName('head')[0];
   let animationId = 1;
+  const icon = document.getElementById("icon");
+  const music = document.getElementById("music");
+
+  icon.addEventListener("click", () => {
+      if (music.paused) {
+          music.play();
+          icon.textContent = "❌"; 
+      } else {
+          music.pause();
+          music.currentTime = 0; 
+          icon.textContent = "▶️"; 
+      }
+  });
 
   function CreateMagicDust(x1, x2, y1, y2, sizeRatio, fallingTime, animationDelay, node = 'main') {
     let dust = document.createElement('span');
